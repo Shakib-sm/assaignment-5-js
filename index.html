@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Service Directory</title>
+  <!-- Tailwind + DaisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <div class="p-5 bg-white flex justify-between items-center shadow">
+    <div class="flex items-center gap-2">
+      <img class="h-12 w-12" src="https://via.placeholder.com/50" alt="logo">
+      <h1 class="font-bold text-2xl text-green-800">Emergency<br>Service</h1>
+    </div>
+    <div class="flex items-center gap-4">
+      <!-- Heart -->
+      <div class="flex items-center bg-green-200 h-12 w-24 rounded-3xl justify-center gap-2">
+        <span id="heart" class="font-bold">0</span>
+        <i class="fa-solid fa-heart text-red-600"></i>
+      </div>
+      <!-- Coin -->
+      <div class="flex items-center bg-green-200 h-12 w-24 rounded-3xl justify-center gap-2">
+        <span id="coin" class="font-bold">100</span>
+        <i class="fa-solid fa-coins text-yellow-600"></i>
+      </div>
+      <!-- Copy -->
+      <div class="flex items-center bg-green-600 h-12 w-28 rounded-3xl justify-center">
+        <span id="copyCount" class="font-bold text-white">0 Copy</span>
+      </div>
+    </div>
+  </div>
